@@ -173,18 +173,17 @@ font-weight: 500;
 line-height: 28px;
 }
 
-.section_social{
-  opacity: 0.4;
-  z-index: 1;
-}
 .social_container{
   margin-top: 30px;
   text-align: center;
   background-color: ghostwhite;
   margin: 10px 0;
-  background-image: url("./assets/social-bg.png");
   background-size: cover;
-  /* opacity: 0.4; */
+  /* background-image: url("./assets/social-bg.png"); */
+  background:linear-gradient( rgba(249, 246, 246, 0.5) 100%, rgba(200, 180, 180, 0.5)100%),url("./assets/social-bg.png");
+
+
+  
 }
 .social{
   margin: 0 auto;
